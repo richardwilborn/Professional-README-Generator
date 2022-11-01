@@ -38,9 +38,13 @@ ${data.description}
 
 ## Table of Contents
 * [Installation](#installation)
+
 * [Usage](#usage)
+
 * [Contributing](#contributing)
+
 * [Tests](#tests)
+
 * [Questions](#questions)
 
 ## Installation
@@ -61,7 +65,7 @@ ${data.test}
 
 If you have any questions, you can either open an issue or email me at ${data.email}.
 
-To see my other projects I have worked on, go to [${data.github}](https://github.com/${
+To see other projects I have worked on, go to [${data.github}](https://github.com/${
   data.github}/).
 
 `;
