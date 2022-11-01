@@ -37,6 +37,11 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 
@@ -58,7 +63,7 @@ If you have any questions, you can either open an issue or email me at ${data.em
 
 To see my other projects I have worked on, go to [${data.github}](https://github.com/${
   data.github}/).
-  
+
 `;
 }
 
