@@ -40,6 +40,7 @@ ${data.description}
 * [Installation](#installation)
 
 * [Usage](#usage)
+${renderLicenseLink(data.license)}
 
 * [Contributing](#contributing)
 
@@ -54,6 +55,8 @@ ${data.installation}
 ## Usage
 
 ${data.usage}
+
+${renderLicenseSection(data.license)}
 
 ## Contributing
 
