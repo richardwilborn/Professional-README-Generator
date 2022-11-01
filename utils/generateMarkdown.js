@@ -30,8 +30,11 @@ This project is licensed under the ${license} license.`;
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+${renderLicenseBadge(data.license)}
 
 ## Description
+
+${data.description}
 
 ## Table of Contents
 
@@ -39,12 +42,23 @@ function generateMarkdown(data) {
 
 ## Usage
 
+${data.usage}
+
 ## Contributing
+
+${data.contributing}
 
 ## Tests
 
+${data.test}
+
 ## Questions
 
+If you have any questions, you can either open an issue or email me at ${data.email}.
+
+To see my other projects I have worked on, go to [${data.github}](https://github.com/${
+  data.github}/).
+  
 `;
 }
 
